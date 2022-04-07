@@ -69,18 +69,18 @@ public class ConsoleExercises {
         //Rewrite your classroom program to use nextInt method. If you added the line of code above to your application,
         // you should now have no trouble handling multiple pieces of user input.
 
-        System.out.println("Enter a length: ");
-        double length = scanner.nextDouble();
-        System.out.println("Enter a double width: ");
-        double width = scanner.nextDouble();
-        System.out.println("Enter a double height: ");
-        double height = scanner.nextDouble();
-        double volume = length * width * height;
-        double perimeter = ((2 * length) + (2 * width));
-        double area = length * width;
-        System.out.println("The perimeter of the room is " + perimeter + ".");
-        System.out.println("The area of the room is: " + area + "sqft.");
-        System.out.println("The volume of the room is: " + volume +" cubic feet.");
+//        System.out.println("Enter a length: ");
+//        double length = scanner.nextDouble();
+//        System.out.println("Enter a double width: ");
+//        double width = scanner.nextDouble();
+//        System.out.println("Enter a double height: ");
+//        double height = scanner.nextDouble();
+//        double volume = length * width * height;
+//        double perimeter = ((2 * length) + (2 * width));
+//        double area = length * width;
+//        System.out.println("The perimeter of the room is " + perimeter + ".");
+//        System.out.println("The area of the room is: " + area + "sqft.");
+//        System.out.println("The volume of the room is: " + volume +" cubic feet.");
 
         // Johnny's method
 //        System.out.println("Please enter a Width and Length, first width then length:");
@@ -95,6 +95,27 @@ public class ConsoleExercises {
 //        System.out.printf("The area is: " + userArea + ".%n");
 //        System.out.printf("The perimeter is: " + userPeri + ".%n");
 
+//boolean livesInCity = true;
+//        boolean hasTransportation = true;
+//        boolean canComeInPerson = livesInCity && hasTransportation;
+//        if (canComeInPerson) {
+//            System.out.println("They can come to the potluck");
+//        } else {
+//            System.out.println("They cannot come to the potluck");
+//        }
+//
+        int x = 5;
+        System.out.println( x != 5);
+
+        int userAccessLevel = 0;
+        if (userAccessLevel == 0) {
+            System.out.println("User is admin");
+        } else if (userAccessLevel == 1) {
+            System.out.println("User does not have admin access");
+        } else System.out.println("User is a visitor");
+
+        // Switch statement
+        System.out.println("Welcome to ");
 
 
 
