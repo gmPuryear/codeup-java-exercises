@@ -2,8 +2,8 @@ package shapes;
 
 public class Rectangle {
     // Properties
-    private double length;
-    private double width;
+    protected double length;
+    protected double width;
 
     // Constructors
     public Rectangle(double length, double width) {
