@@ -6,7 +6,7 @@ public interface Measurable {
 
 
     // custom methods
-    double getPerimeter();
+    double getPerimeter(); // whatever implements Measureable must implement these
 
     double getArea();
 }

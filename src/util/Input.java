@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Input {
 
     // Properties
-    private Scanner scanner;
+    public Scanner scanner;
 
 
     // Constructors

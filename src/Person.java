@@ -35,6 +35,8 @@ public class Person {
         System.out.println("The " + this.name + " property was just made");
     }
 
+
+//getters and setters
     public String getName(){
 //TODO: return the person's name
         return this.name;
@@ -45,6 +47,7 @@ public class Person {
         this.name = name;
     }
 
+//    custom methods
     public void sayHello(){
 //TODO: print a message to the console using the person's name
         System.out.println("Hello " + this.getName());
